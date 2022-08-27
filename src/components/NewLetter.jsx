@@ -10,7 +10,7 @@ const NewLetter = () => {
           </h1>
           <p>Sign up to our newsletter and stay up to date.</p>
         </div>
-        <div className="my-4">
+        <div className="">
           <div className="flex flex-col sm:flex-row justify-between items-center w-full ">
             <input
               type="email"
