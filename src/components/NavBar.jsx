@@ -13,11 +13,11 @@ const NavBAr = () => {
       {/* Desktop NavBar */}
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">FData.</h1>
       <ul className="hidden md:flex ">
-        <li className="p-4">Home</li>
-        <li className="p-4">Company</li>
-        <li className="p-4">Ressources</li>
-        <li className="p-4">About</li>
-        <li className="p-4">Contact</li>
+        <li className="p-4 cursor-pointer">Home</li>
+        <li className="p-4 cursor-pointer">Company</li>
+        <li className="p-4 cursor-pointer">Ressources</li>
+        <li className="p-4 cursor-pointer">About</li>
+        <li className="p-4 cursor-pointer">Contact</li>
         {/* <button className="bg-[#00df9a] w-[200px] rounded-md my-6 mx-auto py-3 text-black font-bold">
           Get started
         </button> */}
@@ -37,11 +37,15 @@ const NavBAr = () => {
         <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">FData.</h1>
 
         <ul className="uppercase p-4">
-          <li className="p-4 border-b border-gray-600">Home</li>
-          <li className="p-4 border-b border-gray-600">Company</li>
-          <li className="p-4 border-b border-gray-600">Ressources</li>
-          <li className="p-4 border-b border-gray-600">About</li>
-          <li className="p-4">Contact</li>
+          <li className="cursor-pointer p-4 border-b border-gray-600">Home</li>
+          <li className="cursor-pointer p-4 border-b border-gray-600">
+            Company
+          </li>
+          <li className="cursor-pointer p-4 border-b border-gray-600">
+            Ressources
+          </li>
+          <li className="cursor-pointer p-4 border-b border-gray-600">About</li>
+          <li className="cursor-pointer p-4">Contact</li>
         </ul>
       </div>
     </div>
